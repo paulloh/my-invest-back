@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/my_invest_db
+    username: postgres
+    password: desenvtest123
+  jpa:
+    hibernate:
+      ddl-auto: update
